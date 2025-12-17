@@ -10,7 +10,7 @@ import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 import ScrollTop from './components/ScrollTop.vue'
-import myPhoto from '../Portfolio/assets/vue-app/IMG_1651.jpg' // Import your image
+import myPhoto from './assets/IMG_1651.jpg'
 
 // --- Portfolio Data ---
 const portfolioData = {
@@ -80,7 +80,7 @@ const portfolioData = {
     phone: "+237 694817663"
   },
   photo: {
-    url: "", // Add your photo URL here or use placeholder
+    url: myPhoto, 
     alt: "Portfolio Photo"
   }
 }
