@@ -10,6 +10,7 @@ import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 import ScrollTop from './components/ScrollTop.vue'
+import myPhoto from '../Portfolio/assets/vue-app/IMG_1651.jpg' // Import your image
 
 // --- Portfolio Data ---
 const portfolioData = {
