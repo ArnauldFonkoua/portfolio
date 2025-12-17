@@ -77,6 +77,10 @@ const portfolioData = {
     github: "ArnauldFonkoua",
     linkedin: "arnauld-fonkoua-djontu",
     phone: "+237 694817663"
+  },
+  photo: {
+    url: "", // Add your photo URL here or use placeholder
+    alt: "Portfolio Photo"
   }
 }
 
