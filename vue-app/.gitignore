@@ -14,6 +14,11 @@ dist-ssr
 coverage
 *.local
 
+# Specific folders to ignore
+
+src/
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -23,6 +28,7 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+*.src
 
 *.tsbuildinfo
 
@@ -34,3 +40,34 @@ coverage
 
 # Vitest
 __screenshots__/
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Environment Variables (CRITICAL: Never push secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build folders
+dist/
+build/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDE Folders
+.vscode/
+.idea/
